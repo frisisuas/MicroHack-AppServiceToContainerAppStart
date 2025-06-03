@@ -8,11 +8,15 @@ on:
 
 
 jobs:
-
+  
   build:
     name: Build and test solution
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+      
     steps:
     - name: Login to Azure
       uses: azure/login@v2
