@@ -64,5 +64,4 @@ jobs:
         containerAppEnvironment: microhack-containerenvironment
         containerAppName: microhack-containerapp
         targetPort: 8080
-        environmentVariables: |
-          API_URL=https://microhack-aiapp.salmonmoss-075bc7bf.spaincentral.azurecontainerapps.io
+        environmentVariables: API_URL=https://microhack-aiapp.salmonmoss-075bc7bf.spaincentral.azurecontainerapps.io
